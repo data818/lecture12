@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+.redirectAlink:hover {
+  color: red;
+}
+.redirectAlink:active {
+  color: green;
+}
+/* .parentDiv p:first-child {
+  color: rgb(110, 110, 0);
+}
+.parentDiv p:last-child {
+  color: red;
+} */
+.parentDiv p:nth-last-child(3) {
+  color: blue;
+}
+/* .parentDiv p:nth-of-type(odd) {
+  color: aqua;
+} */
+/* .parentDiv p:nth-of-type(even) {
+  color: aqua;
+}
+ul li {
+  background-color: chartreuse;
+}
+ul {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  background-color: brown;
+}
+ul li:hover {
+  color: blueviolet;
+}
+ul:hover li {
+  background-color: black;
+} */
+
+.parentDiv p::first-letter {
+  color: green;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.parentDiv p::before {
+  content: ;
+}
